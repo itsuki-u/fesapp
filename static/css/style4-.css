@@ -1,0 +1,92 @@
+@charset 'utf-8';
+
+
+.space{
+    width: 100%;
+    height: .9rem;
+    padding: 12px;
+}
+
+.line{
+    margin: 0;
+    border-bottom: 1px solid #707070;
+}
+
+
+.impressions{
+
+    margin: 5rem auto;
+    margin-left: 5rem;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+.text{
+    margin-bottom: 5rem;
+    word-wrap: break-word;
+    color: #303030;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin:1px 0;
+}
+
+.nickname{
+    padding: .5rem;
+    border: none;
+    border-bottom: 1px solid #303030;
+}
+
+.content{
+    padding: .5rem;
+}
+
+.btn{
+    padding: .5rem;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    background-color: #50A5E6;
+    color: white;
+    width: 7rem;
+    margin: 1.5rem auto;
+    margin-bottom: 0;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: #50A5E6;
+    border: 1px solid #50A5E6;
+}
+
+.border{
+    padding: 1.5rem;
+    border: 2px solid #303030;
+    margin-top: 3rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+#text{
+    width: 15rem;
+    height: 10rem;
+}
+
+
+.clear{
+    margin: .2rem 0;
+}
+
+.align{
+    padding: .2rem;
+    text-align: right;
+}
+
+a{
+    padding: .5rem;
+    color: #303030;
+    text-decoration: none;
+}
