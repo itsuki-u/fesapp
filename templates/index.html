@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/css/style1-.css">
+        <meta charset="UTF-8">
+        <title>
+            test
+        </title>
+    </head>
+    <body>
+        <div class="top">
+            <div class="a">
+                <a href="/rule" class="rule">遊び方</a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <h1>
+            Vision Quest
+        </h1>
+        <form method="POST" name="form">
+            <div class="flex">
+                <div class="box">
+                    <div class="image-box">
+                        <img src="../static/images/Futo.jpg" alt="">
+                    </div>
+                    <div class="input-box">
+                        <p class="pass">PASS1:</p><p class="where">渡り廊下</p>
+                        <input type="text" name="pass1" class="ps" placeholder="PASS1を入力">
+                        <div class="border"></div>
+                        <input type="button" value="場所のヒント" onclick="clickBtn1()" class="hint" />
+
+                        <script>
+
+                            function clickBtn1(){
+                                const p1 = document.getElementById("target1");
+
+                                if(p1.style.display=="block"){
+                                    // noneで非表示
+                                    p1.style.display ="none";
+                                }else{
+                                    // blockで表示
+                                    p1.style.display ="block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="target" id="target1">
+                    <div class="hint-box">
+                        <img src="../static/images/pass3-whare.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-box">
+                        <img src="../static/images/Futo.jpg" alt="">
+                    </div>
+                    <div class="input-box">
+                        <p class="pass">PASS2:</p><p class="where">昇降口横の鏡の所</p>
+                        <input type="text" name="pass2" class="ps" placeholder="PASS2を入力">
+                        <div class="border"></div>
+                        <input type="button" value="場所のヒント" onclick="clickBtn2()" class="hint" />
+
+                        <script>
+
+                            function clickBtn2(){
+                                const p1 = document.getElementById("target2");
+
+                                if(p1.style.display=="block"){
+                                    // noneで非表示
+                                    p1.style.display ="none";
+                                }else{
+                                    // blockで表示
+                                    p1.style.display ="block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="target" id="target2">
+                    <div class="hint-box">
+                        <img src="../static/images/pass1-where.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-box">
+                        <img src="../static/images/Futo.jpg" alt="">
+                    </div>
+                    <div class="input-box">
+                        <p class="pass">PASS3:</p><p class="where">購買の前</p>
+                        <input type="text" name="pass3" class="ps" placeholder="PASS3を入力">
+                        <div class="border"></div>
+                        <input type="button" value="場所のヒント" onclick="clickBtn3()" class="hint" />
+
+                        <script>
+
+                            function clickBtn3(){
+                                const p1 = document.getElementById("target3");
+
+                                if(p1.style.display=="block"){
+                                    // noneで非表示
+                                    p1.style.display ="none";
+                                }else{
+                                    // blockで表示
+                                    p1.style.display ="block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="target" id="target3">
+                    <div class="hint-box">
+                        <img src="../static/images/pass2-where.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="決定" class="clear">
+            </div>
+        </form>
+    </body>
+</html>
